@@ -1,0 +1,96 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: orange;
+    background-color: black;
+}
+header{
+   
+    height: 250px;
+    margin: 100px 0px 0px 50px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url("../img/hockey_2.jpg"); 
+    background-size: 100% 100%;
+    height: 350px;
+    }
+header > h1{
+    color: orange;
+    font-size: 60px;
+    position: absolute;
+    top: 0px;
+}
+section{
+    display: inline-block; 
+    position: absolute;
+    top: 500px;
+    left: 70px;
+
+}
+header>div>h2{
+font-size: xx-large;
+display: block;
+background-color:black;
+color: rgb(10, 202, 10);
+text-align: center;
+position: relative;
+top: -50px;
+}
+nav{
+    width: 100%;
+    display: inline ;
+    position: absolute;
+    top: 90px;
+    left: 70px;
+}
+
+nav a{
+    width: 100%;
+    color: red;
+    margin: 168px;
+    padding: 1px;
+    height: auto;
+    display:inline;
+    
+}
+.active{
+   text-decoration: none;
+   color: rgb(19, 201, 19);
+
+}
+#LogoMighty{
+    border-style: solid ;
+    width: 250px;
+    height: 250px;
+    position: absolute; 
+    top: 200px;
+
+}
+
+
+
+/*DISPLAY NONE*/
+#logo{
+    width: 300px;
+    display: none;
+}
+#img1{
+    width: 200px;
+    display: none;
+}
+#img2{
+    width: 200px;
+    display: none;
+}
+#img3 {
+    width: 200px;
+    display: none;
+}
+/*---*/
+

@@ -1,0 +1,92 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 350px;
+    margin: 50px 0px 0px 50px;
+    padding: 5px 20px;
+    box-sizing: border-box;  
+}
+
+.banner{
+background-image: url("../img/design1_image2.jpg"); 
+background-size: 100% 100%;
+height: 350px;
+}
+
+header > h1{
+    text-align:left;
+    font-size: 60px;
+    margin-left: 0px;
+    padding-top:  0px;
+    position: absolute;
+    top: -20px;
+}
+section{
+    margin: 0px 100px 0px 200px;
+    padding: 0px 10px 102px 200px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 500px;
+}
+header>div>h2{
+font-size: xx-large;
+display: block;
+background-color:black;
+color:white;
+text-align: center;
+position: relative;
+top: - 100px;
+}
+nav{
+    display: inline-block ;
+    position: absolute;
+    top: 30px;
+    left: 906px;
+}
+nav a{
+    background-color: blue;
+    width: 200px;
+    height: auto;
+    display:inline;
+    margin: 10px;
+    padding:  20px;
+}
+.active{
+    background-color: green;
+}
+#LogoMighty{
+    border-style: solid ;
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    top: 500px;
+
+}
+
+.contacto{
+     color: black;
+    
+}
+/*DISPLAY NONE*/
+#logo{
+    width: 300px;
+    display: none;
+}
+#img1{
+    width: 200px;
+    display: none;
+}
+#img2{
+    width: 200px;
+    display: none;
+}
+#img3 {
+    width: 200px;
+    display: none;
+}
+/*---*/
