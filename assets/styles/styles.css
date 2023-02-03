@@ -1,38 +1,31 @@
-*{
-    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+*{  font-family: "Comic Sans MS", "Comic Sans", cursive; 
     max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: orange;
-    background-color: black;
-}
-header{
-   
-    height: 250px;
-    margin: 100px 0px 0px 50px;
-    padding: 5px 20px;
-    box-sizing: border-box;
+ background-color: rgba(0, 0, 0, 0.575);  
 }
 
-.banner{
-    background-image: url("../img/hockey_2.jpg"); 
-    background-size: 100% 100%;
-    height: 350px;
-    }
+header{
+    width: auto;
+    height:0px;
+    margin: 100px 0px 0px 50px;
+    padding: 0px 0px 0px 20px;
+   
+}
 header > h1{
+    height: 100px;
     color: orange;
     font-size: 60px;
     position: absolute;
     top: 0px;
 }
-section{
-    display: inline-block; 
-    position: absolute;
-    top: 500px;
-    left: 70px;
-
-}
+.banner{
+    background-image: url("../img/hockey_2.jpg"); 
+    background-size: 100% 100%;
+    height: 350px;
+    }
 header>div>h2{
 font-size: xx-large;
 display: block;
@@ -47,17 +40,18 @@ nav{
     display: inline ;
     position: absolute;
     top: 90px;
-    left: 70px;
+    left: 70px;   
 }
 
 nav a{
     width: 100%;
     color: red;
-    margin: 168px;
-    padding: 1px;
+    margin: 80px; 
+    padding: 0px;
     height: auto;
-    display:inline;
-    
+    float: center;
+    display: inline;
+    justify-content: space-around;
 }
 .active{
    text-decoration: none;
@@ -68,13 +62,76 @@ nav a{
     border-style: solid ;
     width: 250px;
     height: 250px;
-    position: absolute; 
-    top: 200px;
+    position: absolute;  
+    top: 150px;
+
+}
+main.mainrules{
+    width: 50px;
+   
+}
+section{
+    width: 70%;
+    position: absolute;
+    top: 500px;
+    left: 70px;
 
 }
 
+#rulist1{
+color: aquamarine;
 
+}
 
+#rulist2{
+color: aquamarine;
+
+}
+
+#rulist3{
+color: aquamarine;
+}
+main{
+    background-color: rgba(116, 22, 22, 0.575);
+}
+.game{
+height: 700px;
+}
+.table{
+    background-color: blue;
+    width: 80%;
+    border-collapse: collapse;
+    padding: 100px;
+    margin-left: 20px;
+    border: 2px solid rgb(221, 173, 41);
+    border-style:dashed;
+    justify-content: space-between;
+}
+.table2{
+    background-color: rgb(116, 15, 15);
+    width: 100%;
+    color: blue;}
+    
+.textunderline{
+text-decoration: underline;
+}
+
+.container-rules{
+justify-content: flex-end;
+width: 1000px;
+}
+.navhome{
+background-color: transparent;
+}
+.footerinfo{
+    background-color: rgba(240, 248, 255, 0);
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    top: 900px;
+    left:70px;
+
+}
 /*DISPLAY NONE*/
 #logo{
     width: 300px;
