@@ -64,9 +64,6 @@ top: -50px;
     height: 15em;
     position: absolute;  
     top: 20em;
-    display: flex;
-    justify-content: space-around;
-
 }
 body{
     overflow-x: hidden ;
@@ -211,3 +208,23 @@ width: 95vw;
 }
 
   /*registration*//*-------------------------------------------*/
+
+/*MediaQuerys*//*----------------------------------------------*/
+/*
+@media only screen (min-width:860px){
+    #main{
+        background-color: yellow;
+        display: flex;
+        float: left;
+        margin-top: -15em;
+        margin-left: 2em;
+        width: 10em;
+        border: 5em;
+        border-radius: 1em;
+    }
+}
+@media only screen (min-width:1200px){
+
+}
+  */
+/*MediaQuerys*//*----------------------------------------------*/
