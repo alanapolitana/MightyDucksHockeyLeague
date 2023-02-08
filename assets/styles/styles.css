@@ -1,30 +1,35 @@
+/*generales*//*----------------------------------------------------------------*/
+
 *{  font-family: "Comic Sans MS", "Comic Sans", cursive; 
     max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: orange;
- background-color: rgba(0, 0, 0, 0.575);  
+    background-color: rgba(0, 0, 0, 0.575);  
 }
 
 header{
-    width: auto;
-    height:0px;
-    margin: 100px 0px 0px 50px;
-    padding: 0px 0px 0px 20px;
-   
+    margin-right: auto;
+    margin-left: auto;
 }
+
 header > h1{
-    height: 100px;
+    width: 100%;
+    padding-top: 0.6em ;
+    padding-bottom: 0.6em;
     color: orange;
-    font-size: 60px;
     position: absolute;
     top: 0px;
+    font-size: xx-large;
 }
 .banner{
     background-image: url("../img/hockey_2.jpg"); 
     background-size: 100% 100%;
-    height: 350px;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 7em;
+    padding-top: 10em;
     }
 header>div>h2{
 font-size: xx-large;
@@ -35,120 +40,167 @@ text-align: center;
 position: relative;
 top: -50px;
 }
-nav{
-    width: 100%;
-    display: inline ;
-    position: absolute;
-    top: 90px;
-    left: 70px;   
-}
 
-nav a{
+.navbar{
     width: 100%;
-    color: red;
-    margin: 80px; 
-    padding: 0px;
-    height: auto;
-    float: center;
-    display: inline;
+    height: 2em;
+    display:flex;
     justify-content: space-around;
-}
+    gap: 20px 10px; 
+    position: absolute;
+    top: 80px ;
+   
+   }  
+   nav a{
+    color: red;
+   }
 .active{
    text-decoration: none;
    color: rgb(19, 201, 19);
-
 }
 #LogoMighty{
     border-style: solid ;
-    width: 250px;
-    height: 250px;
+    width: 15em;
+    height: 15em;
     position: absolute;  
-    top: 150px;
+    top: 20em;
+    display: flex;
+    justify-content: space-around;
 
 }
-main.mainrules{
-    width: 50px;
-   
-}
-section{
-    width: 70%;
-    position: absolute;
-    top: 500px;
-    left: 70px;
-
-}
-
-#rulist1{
-color: aquamarine;
-
-}
-
-#rulist2{
-color: aquamarine;
-
-}
-
-#rulist3{
-color: aquamarine;
+body{
+    overflow-x: hidden ;
 }
 main{
-    background-color: rgba(116, 22, 22, 0.575);
+   padding-top: 0.5em;
 }
-.game{
-height: 700px;
+/*generales*//*-----------------------------------------------------------------*/
+
+/*index*//*-----------home------------------------------------------------------*/
+
+.contenedor_index{
+background-image: url("../img/design1_image2.jpg");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+padding-top: 0.3em;
 }
-.table{
+
+/*index*//*-----------home------------------------------------------------------*/
+    
+/*about*//*---------------------------------------------------------------------*/
+
+
+/*about*//*---------------------------------------------------------------------*/
+
+/*contact*//*-------------------------------------------------------------------*/
+/*.contacto{
+
+}*/
+
+
+/*contact*//*-------------------------------------------------------------------*/
+
+/*rules*//*---------------------------------------------------------------------*/
+
+.container-rules{
+    background-image: url("../img/design1_image1.jpg");
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+section>div>h3{
+text-decoration: underline;
+text-align: center;
+}
+
+/*rules*//*---------------------------------------------------------------------*/
+
+
+
+
+
+
+/*gameinfo.html *//*------------------------------*/
+    .game{
+    background-image: url("../img/design1_image2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 0.3em;
+    }
+    .textunderline{
+    text-decoration: underline;
+}
+    .addinfo{
+        background-color: blue;
+    padding-top: 0.3em;
+    width: 70%;
+    display: inline;
+    justify-content: flex-end;
+    margin-top: 400px;
+}
+    .locations{
+    width: 100vw;
+    position: absolute;
+
+}
+    .locations iframe{
+    width: 85%;
+    padding-top: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .locations{
+    text-decoration: underline chartreuse;
+}
+    .positiongamer{
+    width: 50%;
+}   
+
+    .table{
     background-color: blue;
     width: 80%;
     border-collapse: collapse;
-    padding: 100px;
-    margin-left: 20px;
     border: 2px solid rgb(221, 173, 41);
     border-style:dashed;
-    justify-content: space-between;
-}
+
+} 
+   table th{
+    background-color: brown;
+     }
+   table tbody{
+    background-color: black;
+   }
+   #row1{
+    background-color: blue;
+   }
+
 .table2{
     background-color: rgb(116, 15, 15);
     width: 100%;
     color: blue;}
-    
-.textunderline{
-text-decoration: underline;
-}
+  /* gameinfo.html*//*----------------------------------------*/
 
-.container-rules{
-justify-content: flex-end;
-width: 1000px;
-}
-.navhome{
-background-color: transparent;
-}
-.footerinfo{
-    background-color: rgba(240, 248, 255, 0);
-    width: 70%;
-    height: 300px;
-    position: absolute;
-    top: 900px;
-    left:70px;
 
-}
-/*new commit*/
-/*DISPLAY NONE*/
-#logo{
-    width: 300px;
-    display: none;
-}
-#img1{
-    width: 200px;
-    display: none;
-}
-#img2{
-    width: 200px;
-    display: none;
-}
-#img3 {
-    width: 200px;
-    display: none;
-}
-/*---*/
+  /*registration*//*-------------------------------------------*/
+  .registrationforms{
+    margin: 1em;
+    padding: 1em;
+    width: 95vw;
+background-image: url("../img/logo_hockey.png");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+} 
+/* usar flexbox para mejorar visual
+#uniforme{
 
+}*/
+/*registration*//*-------------------------------------------*/
