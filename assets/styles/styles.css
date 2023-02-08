@@ -199,8 +199,15 @@ background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 } 
-/* usar flexbox para mejorar visual
-#uniforme{
+.closest{
+  display: inline-block;
+  width: 95vw;
+}
 
-}*/
-/*registration*//*-------------------------------------------*/
+.uniforme{
+display: inline-block;
+justify-content:space-around;
+width: 95vw;
+}
+
+  /*registration*//*-------------------------------------------*/
